@@ -1,0 +1,12 @@
+set path=C:\Program Files\Java\jdk1.7.0_07\bin
+
+java -jar tictactoe.jar
+
+jar cvf tictactoe.jar manifest.txt *.class *.wav *.jpg
+
+javac -version
+berhasil .jar
+jar cvfm tictactoe.jar manifest.mf *.class *
+
+menggunakan j2e wizad
+http://zonapanda.blogspot.co.id/2013/12/cara-merubah-file-jar-java-menjadi-exe.html
